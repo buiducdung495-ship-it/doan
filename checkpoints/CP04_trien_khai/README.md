@@ -70,16 +70,24 @@ Tài khoản demo: `ADMIN`, `HR01`, `QL01`, `NV001`… Mật khẩu sinh ngẫu 
 
 ## 5. Ảnh sản phẩm chạy trên dữ liệu mẫu
 
+Chụp ngày 16/10/2026 từ bản build production (`npm run build` + `npm run start`), dữ liệu sinh bằng `npm run hr:demo`, độ phân giải 1440×810.
+
 | Màn hình | Ảnh |
 |---|---|
-| Đăng nhập | ![](anh_giao_dien/login.jpg) |
-| Tổng quan (Dashboard) — 8 nhân viên, 1 đơn chờ, 1 hợp đồng sắp hết hạn | ![](anh_giao_dien/dashboard.jpg) |
-| Hồ sơ nhân viên | ![](anh_giao_dien/employees.jpg) |
-| Hợp đồng lao động | ![](anh_giao_dien/contracts.jpg) |
-| Chấm công — 176 bản ghi tháng 09/2026 | ![](anh_giao_dien/attendance.jpg) |
-| Nghỉ phép — hàng đợi chờ duyệt | ![](anh_giao_dien/leave.jpg) |
-| Bảng lương nháp NV001 — 13.000.000 đ | ![](anh_giao_dien/payroll.jpg) |
-| Nhật ký hệ thống | ![](anh_giao_dien/audit.jpg) |
+| Đăng nhập (`/login`) | ![](anh_giao_dien/01_login.png) |
+| Duyệt tài khoản đăng ký công khai | ![](anh_giao_dien/02_registrations.png) |
+| Tổng quan (Dashboard) — 8 nhân viên, 1 đơn chờ, 1 hợp đồng sắp hết hạn | ![](anh_giao_dien/03_dashboard.png) |
+| Hồ sơ nhân viên | ![](anh_giao_dien/04_employees.png) |
+| Hợp đồng lao động | ![](anh_giao_dien/05_contracts.png) |
+| Chấm công — 176 bản ghi tháng 09/2026 | ![](anh_giao_dien/06_attendance.png) |
+| Nghỉ phép — hàng đợi chờ duyệt (Admin) | ![](anh_giao_dien/07_leaves.png) |
+| Trưởng phòng QL01 xử lý đơn nghỉ | ![](anh_giao_dien/08_manager_review.png) |
+| Bảng lương nháp NV001 — 13.000.000 đ | ![](anh_giao_dien/09_payroll_draft.png) |
+| Bảng lương sau khi chốt | ![](anh_giao_dien/10_payroll_final.png) |
+| Nhân viên NV001 xem phiếu lương đã chốt | ![](anh_giao_dien/11_employee_payroll.png) |
+| Nhân viên NV001 — thông báo | ![](anh_giao_dien/11b_employee_notifications.png) |
+| Nhân viên NV001 — đơn nghỉ đã duyệt | ![](anh_giao_dien/11c_employee_leaves.png) |
+| Nhật ký hệ thống | ![](anh_giao_dien/12_audit.png) |
 
 ## 6. Kết quả
 
