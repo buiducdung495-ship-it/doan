@@ -51,7 +51,7 @@ Email theo mẫu `<mã nv>@example.test` (ví dụ `nv001@example.test`).
 ### 3. Hợp đồng lao động
 - 8 hợp đồng `HĐLĐ-<mã NV>`, loại có thời hạn.
 - Nhân viên (`NV...`): lương cơ bản 12.000.000 đ; ADMIN, HR01, QL01: 18.000.000 đ; phụ cấp 1.000.000 đ cho tất cả.
-- Hợp đồng `HĐLĐ-NV001` hết hạn sau 20 ngày kể từ ngày tạo dữ liệu → hiển thị cảnh báo "sắp hết hạn trong 30 ngày" trên Dashboard (bản chụp báo cáo: hết hạn 22/10/2026).
+- Hợp đồng `HĐLĐ-NV001` hết hạn sau 20 ngày kể từ ngày tạo dữ liệu → hiển thị cảnh báo "sắp hết hạn trong 30 ngày" trên Dashboard (bản chụp báo cáo ngày 16/10/2026: hết hạn 05/11/2026).
 
 ### 4. Chấm công
 - **176 bản ghi**: 8 nhân viên × 22 ngày làm việc (thứ Hai – thứ Sáu) của tháng 09/2026, giờ vào/ra 08:00 – 17:00, không trùng lặp.
