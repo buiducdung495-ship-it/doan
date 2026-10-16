@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": { "strict": true },
+  "include": [
+    "src/hr/**/*",
+    "src/backend/hr/**/*",
+    "scripts/setup-hr.ts",
+    "scripts/start-server.ts",
+    "tests/hr.test.ts",
+    "server.ts",
+    "vite.config.ts",
+    "src/main.tsx",
+    "src/App.tsx"
+  ]
+}

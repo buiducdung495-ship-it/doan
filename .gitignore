@@ -1,0 +1,10 @@
+node_modules/
+dist/
+work/
+.env
+.env.*
+!.env.example
+data/hr.json
+data/hr.json.*
+.sites-runtime/
+*.log
