@@ -1,14 +1,11 @@
 # SHC Company — Website quản lý nhân sự
 
-Đồ án kỳ khóa 523 — Bùi Đức Dũng (MSV 523100077, lớp 523100B), GVHD ThS. Trần Thị Lụa.
-
-**Hồ sơ checkpoint:** [checkpoints/](checkpoints/README.md) — CP03 Thiết kế · CP04 Triển khai · CP05 Kiểm thử · CP06 Báo cáo & demo.
-
-Ứng dụng chuyển đổi từ E-Office. Giữ React + TypeScript + Vite + Express; thay luồng đang chạy bằng quản lý hồ sơ, tổ chức, hợp đồng lao động, công, phép, lương và đánh giá.
+Bản chuyển đổi từ E-Office trên nhánh `master`. Giữ React + TypeScript + Vite + Express; thay luồng đang chạy bằng quản lý hồ sơ, tổ chức, hợp đồng lao động, công, phép, lương và đánh giá.
 
 - [Rà soát chức năng, thay đổi và phạm vi](docs/CHUYEN_DOI_NHAN_SU.md)
 - [Kiểm thử và giới hạn môi trường](docs/KIEM_THU.md)
 - [Bản cập nhật SHC Company: giao diện, bảng tin và thông báo](docs/CAP_NHAT_SHC.md)
+- [Đối chiếu và bổ sung chức năng theo video HRM](docs/DOI_CHIEU_VIDEO_HRM.md)
 - [UI/UX mới và đăng ký công khai có duyệt](docs/UI_UX_SHC.md)
 
 ## Trang ngoài và tài khoản tự đăng ký
