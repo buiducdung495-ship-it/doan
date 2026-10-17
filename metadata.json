@@ -1,0 +1,6 @@
+{
+  "name": "Hệ thống Quản trị Quy trình Nội bộ và Phê duyệt Văn bản",
+  "description": "Hệ thống Quản trị Quy trình Code Form Builder & Dynamic Workflow Engine tích hợp kéo thả, quản lý thiết bị, duyệt đa cấp, báo cáo trực quan, chat trực tiếp và thanh toán trực tuyến.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

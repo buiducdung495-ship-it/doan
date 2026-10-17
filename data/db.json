@@ -1,0 +1,277 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "name": "Trần Quỳnh",
+      "email": "admin@company.com",
+      "role": "admin",
+      "department": "Admin",
+      "avatar": "https://i.pravatar.cc/150?u=admin-1",
+      "realName": "Trần Thị Quỳnh",
+      "position": "Tổng Giám Đốc",
+      "level": "Level 5",
+      "cccd": "001122334455",
+      "birthday": "01/01/1980",
+      "gender": "Nữ",
+      "kpiRecords": {}
+    },
+    {
+      "id": "mgr-tech-1",
+      "name": "Nguyễn Văn Đạt",
+      "email": "dat.nguyen@company.com",
+      "role": "manager",
+      "department": "Tech",
+      "avatar": "https://i.pravatar.cc/150?u=mgr-tech-1",
+      "position": "Trưởng Phòng IT",
+      "kpiRecords": {}
+    },
+    {
+      "id": "emp-tech-1",
+      "name": "Lê Hải",
+      "email": "hai.le@company.com",
+      "role": "employee",
+      "department": "Tech",
+      "avatar": "https://i.pravatar.cc/150?u=emp-tech-1",
+      "position": "Lập trình viên",
+      "kpiRecords": {}
+    },
+    {
+      "id": "emp-hr-1",
+      "name": "Phạm Linh",
+      "email": "linh.pham@company.com",
+      "role": "employee",
+      "department": "HR",
+      "avatar": "https://i.pravatar.cc/150?u=emp-hr-1",
+      "position": "Nhân sự",
+      "kpiRecords": {}
+    },
+    {
+      "id": "emp-8988",
+      "name": "đinh văn đông ",
+      "email": "buiducdung495@gmail.com",
+      "phoneNumber": "213123",
+      "role": "employee",
+      "department": "Tech",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150",
+      "salary": 15000000,
+      "gender": "Nam",
+      "birthday": "1995-05-12",
+      "age": 28,
+      "position": "UI/UX Designer",
+      "level": "Trung cấp",
+      "kpiRecords": {}
+    }
+  ],
+  "forms": [
+    {
+      "id": "form-1",
+      "title": "Đơn Xin Nghỉ Phép",
+      "category": "leave",
+      "fields": [
+        {
+          "id": "f1",
+          "label": "Lý do nghỉ",
+          "type": "text",
+          "required": true
+        },
+        {
+          "id": "f2",
+          "label": "Số ngày",
+          "type": "number",
+          "required": true
+        }
+      ],
+      "createdAt": "2026-07-15T16:26:39.219Z",
+      "updatedAt": "2026-07-15T16:26:39.220Z"
+    },
+    {
+      "id": "form-2",
+      "title": "Đề Xuất Cấp Máy Tính",
+      "category": "asset",
+      "fields": [
+        {
+          "id": "f1",
+          "label": "Loại máy",
+          "type": "text",
+          "required": true
+        },
+        {
+          "id": "f2",
+          "label": "Lý do",
+          "type": "text",
+          "required": true
+        }
+      ],
+      "createdAt": "2026-07-15T16:26:39.220Z",
+      "updatedAt": "2026-07-15T16:26:39.220Z"
+    }
+  ],
+  "workflows": [],
+  "requests": [
+    {
+      "id": "req-1",
+      "formTemplateId": "form-1",
+      "formTitle": "Đơn Xin Nghỉ Phép",
+      "submitterId": "emp-tech-1",
+      "submitterName": "Lê Hải",
+      "submitterRole": "employee",
+      "submitterDepartment": "Tech",
+      "submissionData": {
+        "f1": "Nghỉ ốm",
+        "f2": "2"
+      },
+      "status": "pending",
+      "currentStageIndex": 0,
+      "approvalHistory": [],
+      "createdAt": "2026-07-15T16:26:39.220Z",
+      "updatedAt": "2026-07-15T16:26:39.220Z"
+    },
+    {
+      "id": "req-2",
+      "formTemplateId": "form-2",
+      "formTitle": "Đề Xuất Cấp Máy Tính",
+      "submitterId": "emp-hr-1",
+      "submitterName": "Phạm Linh",
+      "submitterRole": "employee",
+      "submitterDepartment": "HR",
+      "submissionData": {
+        "f1": "Laptop Dell",
+        "f2": "Máy cũ bị hỏng"
+      },
+      "status": "approved",
+      "currentStageIndex": 1,
+      "approvalHistory": [
+        {
+          "stageName": "Trưởng Phòng",
+          "approverId": "admin-1",
+          "approverName": "Trần Quỳnh",
+          "action": "approved",
+          "comment": "Đồng ý cấp máy",
+          "timestamp": "2026-07-15T16:26:39.220Z"
+        }
+      ],
+      "createdAt": "2026-07-14T16:26:39.220Z",
+      "updatedAt": "2026-07-15T16:26:39.220Z"
+    }
+  ],
+  "assets": [],
+  "chats": [],
+  "notifications": [],
+  "payments": [],
+  "incomingDocuments": [],
+  "outgoingDocuments": [],
+  "events": [],
+  "tasks": [
+    {
+      "id": "task-1",
+      "title": "Triển khai hệ thống Docusys",
+      "description": "Hoàn thiện các module chính",
+      "assignee": "Nguyễn Văn Đạt",
+      "department": "Tech",
+      "priority": "high",
+      "status": "in-progress",
+      "dueDate": "2026-07-20T16:26:39.220Z",
+      "createdAt": "2026-07-15T16:26:39.220Z"
+    },
+    {
+      "id": "task-2",
+      "title": "Tuyển dụng nhân sự tháng 7",
+      "description": "Tuyển 2 dev react",
+      "assignee": "Phạm Linh",
+      "department": "HR",
+      "priority": "medium",
+      "status": "todo",
+      "dueDate": "2026-07-25T16:26:39.220Z",
+      "createdAt": "2026-07-15T16:26:39.220Z"
+    }
+  ],
+  "internalDocuments": [],
+  "auditLogs": [
+    {
+      "id": "audit-1784132702395",
+      "userId": "emp-tech-1",
+      "userName": "Lê Hải",
+      "action": "login",
+      "details": "Đăng nhập thành công",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-07-15T16:25:02.396Z"
+    },
+    {
+      "id": "audit-1784188870205",
+      "userId": "admin-1",
+      "userName": "Trần Quỳnh",
+      "action": "login",
+      "details": "Đăng nhập thành công",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-07-16T08:01:10.205Z"
+    },
+    {
+      "id": "audit-1784189519417",
+      "userId": "mgr-tech-1",
+      "userName": "Nguyễn Văn Đạt",
+      "action": "login",
+      "details": "Đăng nhập thành công",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-07-16T08:11:59.417Z"
+    },
+    {
+      "id": "audit-1784189549478",
+      "userId": "admin-1",
+      "userName": "Trần Quỳnh",
+      "action": "login",
+      "details": "Đăng nhập thành công",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-07-16T08:12:29.478Z"
+    },
+    {
+      "id": "audit-1784189564986",
+      "userId": "admin-1",
+      "userName": "Trần Quỳnh",
+      "action": "login",
+      "details": "Đăng nhập thành công",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-07-16T08:12:44.986Z"
+    },
+    {
+      "id": "audit-1784190137062",
+      "userId": "system",
+      "userName": "Hệ thống",
+      "action": "USER_REGISTER",
+      "details": "Đăng ký nhân viên mới thành công: đinh văn đông  (emp-8988) - Phòng ban: Tech - Chức danh: UI/UX Designer",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-07-16T08:22:17.062Z"
+    },
+    {
+      "id": "audit-1784190173862",
+      "userId": "emp-tech-1",
+      "userName": "Lê Hải",
+      "action": "login",
+      "details": "Đăng nhập thành công",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-07-16T08:22:53.862Z"
+    },
+    {
+      "id": "audit-1784190697133",
+      "userId": "mgr-tech-1",
+      "userName": "Nguyễn Văn Đạt",
+      "action": "login",
+      "details": "Đăng nhập thành công",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-07-16T08:31:37.133Z"
+    }
+  ],
+  "sharedCategories": [],
+  "ocrDocuments": [
+    {
+      "fileName": "3036b086-41ba-4686-9aeb-f8db09e78d39.jpg",
+      "extractedText": "Thủ thư\nĐăng nhập\nQuản lý độc giả\nXóa độc giả\nTìm kiếm độc giả\nKhóa tài khoản\n«extend»\nQua sdt\nQua tên DG",
+      "confidence": 0.9228687781566703,
+      "status": "completed",
+      "uploaderId": "admin-1",
+      "id": "ocr-1784190160696",
+      "uploadedAt": "2026-07-16T08:22:40.696Z"
+    }
+  ],
+  "chatGroups": [],
+  "cloudFiles": []
+}
