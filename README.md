@@ -2,6 +2,8 @@
 
 Đồ án kỳ khóa 523 — Bùi Đức Dũng (MSV 523100077, lớp 523100B), GVHD ThS. Trần Thị Lụa.
 
+**Báo cáo đồ án:** [Word (.docx)](checkpoints/CP06_bao_cao_demo/Bao_cao_Quan_ly_nhan_su_SHC_523.docx) · [PDF](checkpoints/CP06_bao_cao_demo/Bao_cao_Quan_ly_nhan_su_SHC_523.pdf)
+
 **Hồ sơ checkpoint:** [checkpoints/](checkpoints/README.md) — CP03 Thiết kế · CP04 Triển khai · CP05 Kiểm thử · CP06 Báo cáo & demo.
 
 Ứng dụng chuyển đổi từ E-Office. Giữ React + TypeScript + Vite + Express; thay luồng đang chạy bằng quản lý hồ sơ, tổ chức, hợp đồng lao động, công, phép, lương và đánh giá.
