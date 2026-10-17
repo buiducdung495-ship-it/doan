@@ -13,6 +13,6 @@ Theo mục V của *Quy định thực hiện và trình bày báo cáo Đồ á
 | [03. Thiết kế](CP03_thiet_ke/README.md) | Kiến trúc, dữ liệu, API, luồng xử lý, UI/UX | Sơ đồ use case, kiến trúc, quan hệ dữ liệu, luồng; danh mục API | ✅ Hoàn thành |
 | [04. Triển khai](CP04_trien_khai/README.md) | Chức năng cốt lõi, validation, phân quyền | Mã nguồn repo; ảnh sản phẩm chạy | ✅ Hoàn thành |
 | [05. Kiểm thử](CP05_kiem_thu/README.md) | Test case, dữ liệu mẫu, sửa lỗi, tối ưu | 84 ca kiểm thử đạt; log `npm test` 19/19; 13 lỗi đã sửa | ✅ Hoàn thành |
-| [06. Báo cáo & demo](CP06_bao_cao_demo/README.md) | Báo cáo, demo, cải tiến, hướng phát triển | Báo cáo Word/PDF; source code; kịch bản demo | ⏳ Cần bổ sung link video demo |
+| [06. Báo cáo & demo](CP06_bao_cao_demo/README.md) | Báo cáo, demo, cải tiến, hướng phát triển | Source code; kịch bản demo (báo cáo nộp riêng) | ⏳ Cần bổ sung link video demo |
 
 **Nguyên tắc lưu minh chứng:** mỗi checkpoint có dấu vết thời gian qua lịch sử commit; phản hồi của GVHD ở từng mốc được ghi bổ sung vào README của checkpoint tương ứng.
