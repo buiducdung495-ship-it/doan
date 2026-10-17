@@ -9,8 +9,7 @@
 
 | Minh chứng | Vị trí |
 |---|---|
-| Báo cáo cuối (Word) | [`Bao_cao_Quan_ly_nhan_su_SHC_523.docx`](Bao_cao_Quan_ly_nhan_su_SHC_523.docx) |
-| Báo cáo cuối (PDF) | [`Bao_cao_Quan_ly_nhan_su_SHC_523.pdf`](Bao_cao_Quan_ly_nhan_su_SHC_523.pdf) |
+| Báo cáo cuối | Nộp riêng cho GVHD (không lưu trên repo) |
 | Source code | Thư mục gốc repo này |
 | Video demo | _Bổ sung link video demo (YouTube/Google Drive) tại đây_ |
 
