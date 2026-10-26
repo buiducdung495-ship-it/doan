@@ -1,8 +1,0 @@
-{
-  "folders": [{ "path": "." }],
-  "settings": {
-    "typescript.tsdk": "node_modules/typescript/lib",
-    "files.exclude": { "**/node_modules": true, "**/work/npm-cache": true },
-    "search.exclude": { "**/work": true, "**/dist": true }
-  }
-}
